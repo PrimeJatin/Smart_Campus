@@ -1,0 +1,433 @@
+/* Basic Styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+html{
+    font-size: 100% ;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+.btnStyle{
+    border: none;
+    background-color: #fff;
+    color: #0eb582;
+    font-weight: 550;
+    font-size: .75rem;
+}
+.pageBtnStyle{
+    padding: .75rem 1.5rem;
+    background-color: #fff;
+    color: #0eb582;
+    border: 2px solid #0eb582;
+    font-size: .75rem;
+    font-weight: 600;
+}
+body button:hover{
+    cursor: pointer;
+}
+
+/* Nav Bar  */
+
+nav{
+box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.2) ;
+position: sticky;
+top: 0px;
+z-index: 100;
+background-color: #fff;
+}
+.navBar{
+max-width: 1250px;
+padding: .8rem;
+margin: 0px auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.navLogo i{
+ font-size: 2.5rem;
+ color: #0eb582;
+}
+.navPcge{
+ font-size: 2rem;
+ font-weight: 500; 
+ color: black;   
+}
+.navGroup{
+ font-size: 1.7rem;
+ color: #0eb582;
+ font-weight: 500;
+ }
+.navBar ul{
+display: flex;
+align-items: center;
+gap: 1rem;
+list-style: none;
+}
+.navBar ul li a{
+text-decoration: none;
+color: #000;
+font-size: 1.1rem;
+}
+.navBar ul li{
+  padding: .5rem;
+  border-radius: .4rem;
+  margin-top: .4rem;
+}
+.navBar ul li:hover{
+  background-color: #0eb582;
+}
+.navBar ul li:hover > a{
+  color: white;
+}
+.menuBar{
+  color: #000;
+  font-size: 1.6rem;
+  display: none;
+  padding-top: .5rem;
+}
+.listItems{
+  transition: all .4s;
+}
+
+/* Nav End  */
+
+.homeSec{
+    width: 100%;
+    background-image: url("images/downloads.png");
+    height: calc(100vh - 4.25rem) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* Home Page  */
+.homeSec h1{
+    font-size: 3rem;
+    color: #fff;
+    margin: 0 0 1rem;
+}
+.homeSec h1 span{
+    background-color: #0eb582;
+    padding: .28rem;
+    margin: 0 .28rem;
+}
+.homeSec h3{
+    font-size: 1.4rem;
+    letter-spacing: 0.8px;
+    color: #fff;
+    font-weight: 500;
+}
+/* Home Page End  */
+
+/* Second Page  */
+
+.secondPage .btnOne{
+    text-align: center;
+    margin: 2rem 0;
+}
+.secondPage .btnOne button{
+    color: #fff;
+    background-color: #0eb582;
+}
+.secondPage .flexBox{
+    background-image: url("images/happy-young-multiethnic-group-friends-students-talking.jpg");
+    background-size: cover;
+    min-height: calc(85vh);
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 1rem;
+}
+.secondPage .flexBox .box{
+    width: 25rem;
+    background-color: #fff;
+    height: 16rem;
+    display: flex;
+    align-items: center;
+    padding: 1rem; 
+    gap: 1.4rem;
+    margin: .5rem;
+}
+.secondPage .flexBox .boxImg{
+    align-self: flex-start;
+    padding-top: 2rem;
+}
+.secondPage .flexBox .boxItems{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: .8rem;
+}
+.secondPage .flexBox .boxItems h3{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.secondPage .flexBox .boxItems p{
+    font-size: 1.25rem;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+/* Second Page (End)  */
+
+/* Third Page  */
+
+.thirdPage .pageText{
+    text-align: center;
+    width: 100%;
+    margin: 2rem 0;
+}
+.thirdPage .pageText h1{
+    font-size: 20px ;
+    letter-spacing: .4px;
+    font-weight: 500;
+}
+.thirdPage .pageText .border{
+    border-bottom: .5rem solid #0eb582;
+    display: inline-block;
+    width: 88px;
+    border-radius: 12px;
+    margin-top: 16px ;
+}
+.thirdPage .flexBox{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.thirdPage .flexBox .box{
+    margin: .5rem;
+    height: 100%;
+}
+.thirdPage .flexBox .box h3{
+    font-size: 1.6rem;
+    color: black;
+    font-weight: 600;
+    letter-spacing: 1px;
+    line-height: 1.5;
+}
+button span i{
+    margin-left: 4px;
+}
+.thirdPage .pageBtn{
+    text-align: center;
+    margin: 2rem 0;
+}
+/* Third Page, Fourth Page / End  */
+
+/* Fifth Page  */
+
+.bt{
+    border-top: 2px solid #0eb582;
+}
+.sectionFive{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem 0;
+    flex-wrap: wrap;
+}
+.sectionFive .pageImg{
+    margin: 1rem;
+}
+.sectionFive .pageImg img{
+    width: 100%;
+}
+.sectionFive .pageText{
+    width: 40%;
+    margin: 1rem;
+}
+.sectionFive .pageText h1{
+    font-size: 1.8rem;
+}
+.sectionFive .pageText p{
+    line-height: 1.4;
+    font-size: 1.2rem;
+    letter-spacing: 1.5px;
+    margin: 1.4rem 0;
+}
+.sectionFive .pageText .btnOne{
+    color: #fff;
+    background-color: #0eb582;
+}
+.sectionFive .pageText .btnTwo{
+    margin: 0 .5rem;
+}
+
+/* Footer  */
+
+.footer .firstBg{
+    background-color: #0eb582;
+    padding: .5rem 0;
+}
+.footer .boxOne{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    font-family: 'Nunito';
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+}
+.logo i{
+    font-size: 40px;
+}
+.pcge{
+    font-size: 32px;
+    font-weight: 600;    
+}
+.group{
+    font-size: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer .input{
+    background-color: white;
+    font-family: 'Nunito';
+    border-radius: 28px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    padding: 4px;
+}
+.footer .input input{
+    border: none;
+    border-radius: 28px;
+    padding-left: 10px ;
+    width: 100%;
+}
+.footer .input button{
+    color: #fff;
+    padding: 12px 20px;
+    font-weight: 600;
+    border-radius: 24px;
+    background-color: #0eb582;
+    border: none;
+}
+.footer .secondBg{
+    background-color: #9fffd0;
+}
+.footer .boxTwo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    text-align: justify;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.footer .boxTwo div{
+    padding: 2rem;
+}
+.footer .secondBg .boxTwo h3{
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size:20px;
+}
+.footer .secondBg .boxTwo li{
+    list-style: none;
+    padding: 8px 0;
+    text-align: justify;
+}
+.footer .secondBg .boxTwo li a{
+    text-decoration: none;
+    color: black;
+}
+.footer .secondBg .boxTwo li a:hover{
+    border-bottom: 2px solid black;
+}
+
+
+@media (max-width: 1128px){
+    .sectionFive{
+        max-width: 60%;
+        margin: 0 auto;
+    }
+    .sectionFive .pageImg{
+        width: 100%;
+    }
+    .sectionFive .pageText{
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .navBar ul{
+        background-color: #0eb582;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 4.2rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 0;
+        overflow: hidden;
+      }
+      .navBar ul li{
+        padding: 1rem;
+      }
+      .menuBar{
+        display: block;
+    } 
+
+    .sectionFive{
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+@media (max-width: 640px){
+
+    html{
+        font-size: 80%;
+    }
+
+    .footer .boxOne{
+        justify-content: center;
+    }
+    .footer .boxOne .logo{
+        width: 100%;
+        text-align: center;       
+    }
+    .footer .input{
+        width: 90%;
+    }
+}
+
+@media (max-width: 480px) {
+    html{
+        font-size: 60%;
+    }
+    .sectionFive .pageText p{
+        letter-spacing: 0.2px;
+    } 
+    .footer .secondBg .boxTwo li a{
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 380px) {
+    html{
+        font-size: 50%;
+    }
+    .sectionFive .pageText p{
+        letter-spacing: 0.2px;
+    } 
+}
+
+
+
+
+
+

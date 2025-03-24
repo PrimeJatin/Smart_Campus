@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Submit Issue</title>
+    <link rel="stylesheet" href="/Container/worker_form.css">
+</head>
+<body>
+
+<div class="form-container">
+    <h2>Complaint Carpenter</h2>
+    <form action="/submit" method="post">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" class="inputs" required>
+
+        <label for="stream">Stream:</label>
+        <input type="text" id="stream" name="stream" class="inputs" required>
+
+        <label for="e_num">Enrollment No:</label>
+        <input type="text" id="e_num" name="enrollment_number" class="inputs" required>
+
+        <label for="problem">Problem:</label>
+        <textarea id="problem" name="problem" rows="4" class="inputs" required></textarea>
+
+        <button id="btn">Submit</button>
+    </form>
+
+    <p></p>
+
+
+</div>
+
+
+<script src="Cpr.js"></script>
+</body>
+</html>

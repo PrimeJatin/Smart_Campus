@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centered Form</title>
+    <link rel="stylesheet" href="aten.css">
+</head>
+<body>
+    <div class="form-container">
+        <form>
+            <h2>User Information</h2>
+            <label for="username">Name:</label>
+            <input type="text" id="username" name="username" class="input-box" required>
+            
+            <label for="id">Enrollment No:</label>
+            <input type="text" id="id" name="id" required class="input-box">
+            
+            <label for="batch">Batch:</label>
+            <input type="text" id="batch" name="batch" required class="input-box">
+            
+            <label for="stream">Stream:</label>
+            <input type="text" id="stream" name="stream" required class="input-box">
+            
+            <button type="submit">Submit</button>
+        </form>
+        <span id="wrong"></span>
+    </div>
+
+    <div class="student-card cen">
+        <div class="close-btn">
+            <h3 onclick="closeProfile()">&#10006;</h3>
+        </div>
+        
+
+        <h2>Student Details</h2>
+        <p><strong>Name:</strong> <span>  </span></p>
+        <p><strong>Enroll No:</strong> <span>  </span></p>
+        <p><strong>Batch:</strong> <span>  </span></p>
+        <p><strong>Stream:</strong> <span>  </span></p>
+        <p><strong>Attendance:</strong> <span>  </span></p>
+    </div>
+
+
+    <script src="aten.js"></script>
+</body>
+</html>
